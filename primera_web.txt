@@ -1,0 +1,62 @@
++58
+Líneas cambiadas: 58 adiciones y 0 supresiones
+Número de línea del archivo original	Número de línea diff	Cambio de línea de diferencial
+@@ -0,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Page</title>
+        <script defer src="./index.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Esta pagina solicita datos y los envia a la Api local</h1>
+        </header>
+        <hr>
+        <article>
+            <section>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td width="100px">
+                                <label for="">Nombre</label>
+                            </td>
+                            <td>
+                                <input type="text" name="nombre" id="nombre">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Direccion</label>
+                            </td>
+                            <td>
+                                <input type="text" name="direccion" id="direccion">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Telefono</label>
+                            </td>
+                            <td>
+                                <input type="text" name="telefono" id="telefono">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Email</label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                    </table>
+                    <button type="button" id="btnGuardar">Guardar</button>
+                    <button type="button" id="btnConsultar">Consultar</button>
+                </form>
+                <hr>
+            </section>
+        </article>
+    </body>
+</html>
